@@ -6,5 +6,5 @@ app.use(express.static(path.resolve(__dirname, "../dist")));
 app.get("/data", (request, response) => {
   response.json(data);
 });
-
-app.listen(3300, () => console.log("server is running"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log("server is running"));
