@@ -1,0 +1,144 @@
+body {
+  background-image: url(/img/background.jpg); }
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 150px; }
+
+* {
+  box-sizing: border-box; }
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  overflow-x: hidden; }
+
+.post {
+  padding: 20px; }
+
+/* Header/Blog Title */
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%; }
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px; }
+  .rightcolumn .card .fakeimg {
+    background-color: white; }
+
+.card h2 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, red 20%, black 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold; }
+
+.com {
+  margin-left: 85%;
+  margin-top: -40px; }
+
+.card h5 {
+  text-align: end; }
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%; }
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px; }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0; } }
+
+.Blog {
+  /* Right column */
+  /* Add a card effect for articles */
+  /* Clear floats after the columns */ }
+  .Blog .parallex {
+    height: 250px;
+    width: 100%;
+    background: red;
+    position: relative;
+    text-align: center; }
+    .Blog .parallex img {
+      height: 350px;
+      width: 100%;
+      background-size: cover; }
+    .Blog .parallex h1 {
+      position: relative;
+      top: -200px;
+      text-align: center;
+      font-size: 90px;
+      font-weight: bold;
+      font-family: sans-serif;
+      text-transform: uppercase;
+      background: linear-gradient(to right, red 20%, black 80%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  .Blog .lc {
+    float: left;
+    width: 75%;
+    margin-top: 80px;
+    padding: 20px; }
+  .Blog .card h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, red 20%, black 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; }
+  .Blog .rc {
+    float: left;
+    width: 25%;
+    margin-top: 100px;
+    padding-left: 20px; }
+    .Blog .rc .card .fakeimg {
+      background-color: white; }
+  .Blog .fakeimg {
+    background-color: #aaa;
+    width: 100%; }
+  .Blog .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px; }
+  .Blog .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media screen and (max-width: 800px) {
+    .Blog .leftcolumn, .Blog .rightcolumn {
+      width: 100%;
+      padding: 0; } }
+
+/*# sourceMappingURL=styles.css.map*/

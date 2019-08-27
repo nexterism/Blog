@@ -1,0 +1,10 @@
+body{
+    background-image: url(/img/background.jpg)
+}
+
+
+@import "./Title";
+@import "./Nav";
+@import "./Posts";
+@import "./PostDetails";
+@import "./signup";
